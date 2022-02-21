@@ -1,6 +1,7 @@
 {
   "author": "Lautaro Gianinetto",
 	"name": "fcc-learn-npm-package-json",
+  "description": "A simple web app that uses npm packages to learn about npm",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
@@ -11,5 +12,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
-	}
+	},
+  "engines": {
+    "node": "16.14.0"
+  }
 }
